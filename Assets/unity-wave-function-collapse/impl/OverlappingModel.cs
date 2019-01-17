@@ -28,7 +28,8 @@ class OverlappingModel : Model
 
 		colors = new List<byte>();
 		colors.Add((byte)0);
-		for (int y = 0; y < SMY; y++) for (int x = 0; x < SMX; x++)
+		for (int y = 0; y < SMY; y++)
+            for (int x = 0; x < SMX; x++)
 			{
 				byte color = sample[x, y];
 
@@ -41,6 +42,7 @@ class OverlappingModel : Model
 
 				if (i == colors.Count) colors.Add(color);
 			}
+        
 
 		int C = colors.Count;
 		long W = Stuff.Power(C, N * N);

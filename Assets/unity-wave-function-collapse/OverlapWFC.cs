@@ -94,6 +94,12 @@ class OverlapWFC : MonoBehaviour{
 		group.rotation = output.transform.rotation;
         group.localScale = new Vector3(1f, 1f, 1f);
         rendering = new GameObject[width, depth];
+        for (int i = 0; i < training.sample.GetLength(0); i++) {
+            for (int j = 0; j < training.sample.GetLength(1); j++)
+            {
+                Debug.Log(">>>>>>>" + training.sample[i, j]);
+            }
+        }
 		model = new OverlappingModel(training.sample, N, width, depth, periodicInput, periodicOutput, symmetry, foundation);
         undrawn = true;
     }

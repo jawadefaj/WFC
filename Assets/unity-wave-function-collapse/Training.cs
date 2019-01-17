@@ -125,6 +125,7 @@ class Training : MonoBehaviour{
 				fab = PrefabUtility.GetCorrespondingObjectFromSource(tile);
                 //Debug.Log(">>>> fab name >>>" + fab.name);
                 if (fab == null){
+                    Debug.Log("Enters after fab == null");
 					PrefabUtility.ReconnectToLastPrefab(tile);
 					fab = PrefabUtility.GetCorrespondingObjectFromSource(tile);
 				}
@@ -158,10 +159,7 @@ class Training : MonoBehaviour{
 		}
 		tiles = tiles.SubArray(0 , str_tile.Count+1);
 		RS = RS.SubArray(0 , str_tile.Count+1);
-        foreach (KeyValuePair<string, byte> p in str_tile)
-        {
-            Debug.Log(" <> <> " + p.Key + " <> <> " + p.Value);
-        }
+
     }
 
 	void OnDrawGizmos(){
