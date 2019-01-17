@@ -5,3 +5,7 @@ Add the script TilePainter to draw the map. Give Pallate necessary prefabs to dr
 
 ![Input Img](https://github.com/jawadefaj/WFC/blob/tile/InputTile.PNG)
 ![Output Img](https://github.com/jawadefaj/WFC/blob/tile/OutputTile.PNG)
+# Constrains
+1) All the tiles between two road tiles are rock tile.
+2) For the square tile, the indside tiles are flower tile.
+3) Each road corner tile is connected with a verticle and a horizontal tile.
