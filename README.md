@@ -9,3 +9,8 @@ Add the script TilePainter to draw the map. Give Pallate necessary prefabs to dr
 1) All the tiles between two road tiles are rock tile.
 2) For the square tile, the indside tiles are flower tile.
 3) Each road corner tile is connected with a verticle and a horizontal tile.
+# Tiles
+![Input Img](https://github.com/jawadefaj/WFC/blob/tile/Assets/Backyard%20-%20Free/Separate%20Tiles/backyard_84.png)
+![Input Img](https://github.com/jawadefaj/WFC/blob/tile/Assets/Backyard%20-%20Free/Separate%20Tiles/backyard_80.png)
+![Input Img](https://github.com/jawadefaj/WFC/blob/tile/Assets/Backyard%20-%20Free/Separate%20Tiles/backyard_53.png)
+![Input Img](https://github.com/jawadefaj/WFC/blob/tile/Assets/Backyard%20-%20Free/Separate%20Tiles/backyard_00.png)
