@@ -1,24 +1,72 @@
 <set>
   <tiles>
-<tile name="DifStraightRoad_T" symmetry="T" weight="1.0"/>
+<tile name="Boundary2Straight_T" symmetry="T" weight="1.0"/>
+<tile name="BoundaryStraight_T" symmetry="T" weight="1.0"/>
+<tile name="CornerRightBottom_L" symmetry="L" weight="1.0"/>
+<tile name="CornerRightUp_L" symmetry="L" weight="1.0"/>
 <tile name="RockGrass" symmetry="X" weight="1.0"/>
-<tile name="Dif3StraightRoad_T" symmetry="T" weight="1.0"/>
 <tile name="Background_X" symmetry="X" weight="1.0"/>
+<tile name="CornerLeftBottom_L" symmetry="L" weight="1.0"/>
+<tile name="CornerLeftUp_L" symmetry="L" weight="1.0"/>
 	</tiles>
 <neighbors>  <neighbor left="Background_X 0" right="Background_X 0"/>
   <neighbor left="Background_X 1" right="Background_X 1"/>
-  <neighbor left="Background_X 1" right="Dif3StraightRoad_T 1"/>
-  <neighbor left="Dif3StraightRoad_T 0" right="Dif3StraightRoad_T 0"/>
-  <neighbor left="Dif3StraightRoad_T 1" right="RockGrass 1"/>
+  <neighbor left="Background_X 0" right="RockGrass 0"/>
   <neighbor left="RockGrass 0" right="RockGrass 0"/>
   <neighbor left="RockGrass 1" right="RockGrass 1"/>
-  <neighbor left="RockGrass 1" right="Dif3StraightRoad_T 3"/>
-  <neighbor left="RockGrass 1" right="DifStraightRoad_T 3"/>
-  <neighbor left="Dif3StraightRoad_T 2" right="Dif3StraightRoad_T 2"/>
-  <neighbor left="Dif3StraightRoad_T 3" right="Background_X 1"/>
-  <neighbor left="Dif3StraightRoad_T 2" right="DifStraightRoad_T 2"/>
-  <neighbor left="DifStraightRoad_T 2" right="DifStraightRoad_T 2"/>
-  <neighbor left="DifStraightRoad_T 3" right="Background_X 1"/>
-  <neighbor left="DifStraightRoad_T 2" right="Dif3StraightRoad_T 2"/>
+  <neighbor left="RockGrass 0" right="Background_X 0"/>
+  <neighbor left="Background_X 1" right="RockGrass 1"/>
+  <neighbor left="RockGrass 1" right="Background_X 1"/>
+  <neighbor left="RockGrass 1" right="CornerLeftBottom_L 1"/>
+  <neighbor left="RockGrass 1" right="Boundary2Straight_T 1"/>
+  <neighbor left="RockGrass 1" right="CornerRightBottom_L 1"/>
+  <neighbor left="Background_X 1" right="CornerLeftBottom_L 1"/>
+  <neighbor left="Background_X 1" right="Boundary2Straight_T 1"/>
+  <neighbor left="Background_X 1" right="CornerRightBottom_L 1"/>
+  <neighbor left="RockGrass 0" right="CornerLeftBottom_L 0"/>
+  <neighbor left="CornerLeftBottom_L 0" right="Boundary2Straight_T 0"/>
+  <neighbor left="CornerLeftBottom_L 1" right="CornerLeftUp_L 1"/>
+  <neighbor left="Boundary2Straight_T 0" right="Boundary2Straight_T 0"/>
+  <neighbor left="Boundary2Straight_T 1" right="BoundaryStraight_T 1"/>
+  <neighbor left="Boundary2Straight_T 0" right="CornerRightBottom_L 0"/>
+  <neighbor left="CornerRightBottom_L 0" right="RockGrass 0"/>
+  <neighbor left="CornerRightBottom_L 1" right="CornerRightUp_L 1"/>
+  <neighbor left="Background_X 0" right="CornerLeftBottom_L 0"/>
+  <neighbor left="CornerLeftBottom_L 1" right="Boundary2Straight_T 2"/>
+  <neighbor left="Boundary2Straight_T 1" right="RockGrass 1"/>
+  <neighbor left="CornerRightBottom_L 0" right="Background_X 0"/>
+  <neighbor left="CornerRightBottom_L 1" right="Boundary2Straight_T 0"/>
+  <neighbor left="RockGrass 0" right="CornerLeftUp_L 0"/>
+  <neighbor left="CornerLeftUp_L 0" right="BoundaryStraight_T 0"/>
+  <neighbor left="CornerLeftUp_L 1" right="RockGrass 1"/>
+  <neighbor left="BoundaryStraight_T 0" right="BoundaryStraight_T 0"/>
+  <neighbor left="BoundaryStraight_T 1" right="RockGrass 1"/>
+  <neighbor left="BoundaryStraight_T 0" right="CornerRightUp_L 0"/>
+  <neighbor left="CornerRightUp_L 0" right="RockGrass 0"/>
+  <neighbor left="CornerRightUp_L 1" right="RockGrass 1"/>
+  <neighbor left="Background_X 0" right="Boundary2Straight_T 1"/>
+  <neighbor left="Boundary2Straight_T 1" right="RockGrass 0"/>
+  <neighbor left="Boundary2Straight_T 2" right="Boundary2Straight_T 2"/>
+  <neighbor left="RockGrass 0" right="Boundary2Straight_T 3"/>
+  <neighbor left="Boundary2Straight_T 3" right="Background_X 0"/>
+  <neighbor left="Boundary2Straight_T 0" right="Boundary2Straight_T 0"/>
+  <neighbor left="Boundary2Straight_T 2" right="CornerLeftUp_L 1"/>
+  <neighbor left="RockGrass 1" right="BoundaryStraight_T 1"/>
+  <neighbor left="Boundary2Straight_T 0" right="CornerRightUp_L 1"/>
+  <neighbor left="Background_X 0" right="CornerLeftUp_L 0"/>
+  <neighbor left="CornerLeftUp_L 1" right="Background_X 1"/>
+  <neighbor left="BoundaryStraight_T 1" right="Background_X 1"/>
+  <neighbor left="CornerRightUp_L 0" right="Background_X 0"/>
+  <neighbor left="CornerRightUp_L 1" right="Background_X 1"/>
+  <neighbor left="CornerLeftBottom_L 1" right="BoundaryStraight_T 0"/>
+  <neighbor left="CornerRightBottom_L 1" right="BoundaryStraight_T 2"/>
+  <neighbor left="Background_X 0" right="BoundaryStraight_T 3"/>
+  <neighbor left="BoundaryStraight_T 3" right="RockGrass 0"/>
+  <neighbor left="BoundaryStraight_T 0" right="BoundaryStraight_T 0"/>
+  <neighbor left="RockGrass 0" right="BoundaryStraight_T 1"/>
+  <neighbor left="BoundaryStraight_T 1" right="Background_X 0"/>
+  <neighbor left="BoundaryStraight_T 2" right="BoundaryStraight_T 2"/>
+  <neighbor left="BoundaryStraight_T 0" right="CornerLeftUp_L 1"/>
+  <neighbor left="BoundaryStraight_T 2" right="CornerRightUp_L 1"/>
 	</neighbors>
 </set>
